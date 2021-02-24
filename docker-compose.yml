@@ -1,0 +1,15 @@
+---
+version: '3.8'
+
+services:
+  rcpc-app:
+      build:
+        context: .
+      image: rcpc-image
+      container_name: rcpc-app
+      ports: 
+      - "30000:3000"
+      volumes:
+      - ./src:/usr/src
+      stdin_open: true # docker run -i
+      tty: true        # docker run -t
