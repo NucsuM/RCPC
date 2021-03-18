@@ -1,0 +1,5 @@
+{
+  "name": "Box",
+  "main": "./box.js",
+  "style": "./box.scss"
+}

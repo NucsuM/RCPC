@@ -1,12 +1,14 @@
 import { render } from "react-dom";
 import React from "react";
 import ReactDOM from "react-dom";
+import Box from './components/Box'
 
 export default function App() {
-  let message = 'rc performance calculator'
   return (
     <>
-      { message }
+      <Box
+      title={'Inhalt'}
+      />
     </>
   );
 }
